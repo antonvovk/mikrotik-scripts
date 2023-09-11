@@ -20,7 +20,6 @@
 }
 :local SENDBROADCAST do={
     /tool fetch url="https://api.telegram.org/bot$1/sendmessage?chat_id=428502551&text=$2" output=user
-    /tool fetch url="https://api.telegram.org/bot$1/sendmessage?chat_id=469527961&text=$2" output=user
 }
 :local loops 0
 :local lastOnLineStatus
